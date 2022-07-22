@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".techearUi.classroom.tabs.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/imageClassProfile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/teaching"
+        android:contentDescription="@string/class_picture" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:id="@+id/textClassTitle"
+            android:layout_weight="1"
+            android:text="@string/class_title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/black"
+            android:id="@+id/textClassDesc"
+            android:layout_weight="1"
+            android:text="@string/class_title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/accept_students"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"/>
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonEditClass"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_arrow___right_1"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="Edit Class"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/buttonSend"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_arrow___right_1"
+            android:gravity="start"
+            android:padding="10dp"
+            android:text="@string/share_class_code"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+</LinearLayout>
