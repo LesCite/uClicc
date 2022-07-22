@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">uClicc</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="already_have_an_account_sign_in">Already Have an Account? Sign in</string>
+    <string name="student_id">Student ID</string>
+    <string name="lastname">Lastname</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="firstname">Firstname</string>
+    <string name="create_account">Create Account</string>
+    <string name="id_number">ID Number</string>
+    <string name="computer_programming_ictoo1_ict002">Computer Programming (ICTOO1-ICT002)</string>
+    <string name="my_classes">My Classes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_class">create class</string>
+    <string name="class_title">Class title</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="sorry_this_page_is_under_development">Sorry, this page is under development</string>
+    <string name="class_students">Class Students</string>
+    <string name="add_announcement">Add Announcement</string>
+    <string name="announcements">Announcements</string>
+    <string name="create_an_announcement">Create an announcement</string>
+    <string name="announcement">Announcement</string>
+    <string name="teacher_s_name">Teacher\'s name</string>
+
+    <string name="web_client_id">144804628673-vh3o6chnesbe2hru14ssgqqqricv1lg0.apps.googleusercontent.com</string>
+
+
+    <string name="facebook_app_id">483727876598124</string>
+    <string name="fb_login_protocol_scheme">fb483727876598124</string>
+    <string name="facebook_client_token">aaed8f6de7bc42fead58e0de2471f6ee</string>
+    <string name="user_email">User email</string>
+    <string name="old_password">Old Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="schedules">Schedules</string>
+    <string name="class_picture">Class Picture</string>
+    <string name="share_class_code">Share class code</string>
+    <string name="add_schedules">Add Schedules</string>
+    <string name="invitations">Invitations</string>
+    <string name="other_classes">Other Classes</string>
+    <string name="fonts_are_an_important_part_of_your_site_typography_fonts_that_are_too_fancy_can_be_hard_to_read_while_too_plain_ones_can_be_outright_boring_that_s_why_you_should_focus_on_choosing_a_font_that_s_legible_yet_appealing">Fonts are an important part of your site typography. Fonts that are too fancy can be hard to read, while too plain ones can be outright boring. That’s why you should focus on choosing a font that’s legible yet appealing.</string>
+    <string name="june_4_2023">June 4, 2023</string>
+    <string name="accept_students">Accept Students</string>
+    <string name="view">View</string>
+    <string name="take">Take</string>
+    <string name="student_s_fullname">Student\'s Fullname</string>
+    <string name="timestamp">Timestamp</string>
+    <string name="date">Date</string>
+    <string name="no_attendees_yet">No Attendees yet!</string>
+    <string name="view_attendees">View Attendees</string>
+    <string name="records">Records</string>
+    <string name="_0">0</string>
+    <string name="attendance">Attendance</string>
+    <string name="absent">Absent</string>
+    <string name="students_fullname">Students fullname</string>
+    <string name="add_new_activity">Add new activity</string>
+    <string name="activity_name">Activity Name</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="date_taken">Date Taken</string>
+    <string name="activity_total_score">Activity Total Score</string>
+    <string name="name">Name</string>
+    <string name="grade">Grade</string>
+
+
+    <string-array name="term">
+        <item>First Grading</item>
+        <item>Second Grading</item>
+        <item>Third Grading</item>
+    </string-array>
+
+</resources>
